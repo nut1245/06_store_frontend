@@ -127,7 +127,9 @@ function AddProductForm() {
     };
     //เรียกใช้ API
     axios
-      .post("http://localhost:5000/api/products", param)
+      // .post("http://localhost:5000/api/products", param)
+      
+      .post("https://product-api-012.herokuapp.com/api/products/", param)
       .then((response) => {
         console.log(response.data);
         // setProduct(initProductState); //เคลียข้อความในแบบฟอม

@@ -22,7 +22,7 @@ function EditProductForm({ id }) {
   const [submitted, setSubmitted] = useState(false);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/products/" + id)
+      .get("https://product-api-012.herokuapp.com/api/products/" + id)
       .then((response) => {
           setProduct(response.data);
       });
@@ -45,7 +45,7 @@ function EditProductForm({ id }) {
     };
     //เรียกใช้ API
     axios
-      .put("http://localhost:5000/api/products/"+product._id, param)
+      .put("https://product-api-012.herokuapp.com/api/products/"+product._id, param)
       .then((response) => {
         console.log(response.data);
         setProduct({...product, param }); //เคลียข้อความในแบบฟอม
