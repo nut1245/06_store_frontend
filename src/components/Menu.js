@@ -8,7 +8,7 @@ function Menu() {
         <div>
             <Navbar className='navbar navbar-expand-md navbar-dark fixed-top bg-dark' 
             expand="md">
-                <NavbarBrand href='/'>SE Store</NavbarBrand>
+                <NavbarBrand href='/'>Farmer Store</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
