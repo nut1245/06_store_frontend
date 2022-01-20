@@ -13,7 +13,7 @@ function Menu() {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
                         <NavItem>
-                            <NavLink href='/'>รายชื่อสินค้า</NavLink>
+                            <NavLink href='/'>รายการสินค้า</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href='/add'>เพิ่มสินค้าใหม่</NavLink>
