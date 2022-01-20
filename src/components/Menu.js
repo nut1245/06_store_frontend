@@ -13,10 +13,10 @@ function Menu() {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
                         <NavItem>
-                            <NavLink href='/'>Product List</NavLink>
+                            <NavLink href='/'>รายชื่อสินค้า</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/add'>Add New Product</NavLink>
+                            <NavLink href='/add'>เพิ่มสินค้าใหม่</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
